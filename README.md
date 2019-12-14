@@ -19,5 +19,6 @@ python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps RockP
 
 and then run the program by the following
 
-import RockPaperScissors.RPS as rps
-rps.main()
+'>> import RockPaperScissors.RPS as rps'
+and then
+'>> rps.main()'
