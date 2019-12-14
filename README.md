@@ -9,6 +9,15 @@ python3 -m RockPaperScissors.py
 
 or run the following from python shell from the folder where you have saved the code
 
->> import RockPaperScissors as rps
+'>> import RockPaperScissors as rps'
 and then,
->> rps.main()
+'>> rps.main()'
+
+You can also import the package in your environment by the following command
+
+python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps RockPaperScissors
+
+and then run the program by the following
+
+import RockPaperScissors.RPS as rps
+rps.main()
