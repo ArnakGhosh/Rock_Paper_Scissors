@@ -4,27 +4,18 @@ This is a kids' game Rock-Paper-Scissors from childhood, only to be relived digi
 The sole purpose of coding the logic behind the game is to explore the language and to gain some experience in modular programming. This doesn't serve any purpose nor solves any impending issues only other than just pure knowledge and insight into python programming.
 
 To run the code you can just run the following command windows / Linux command prompt:
-```
-python3 -m RockPaperScissors.py
-```
+```python3 -m RockPaperScissors.py```
 or run the following from python shell from the folder where you have saved the code
-```
-import RockPaperScissors as rps
-```
+```import RockPaperScissors as rps```
 and then,
-```
-rps.main()
-```
+```rps.main()```
+
 
 You can also import the package in your environment by the following command
 ```
 python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps RockPaperScissors
 ```
 and then run the program by the following
-```
-import RockPaperScissors.RPS as rps
-```
+```import RockPaperScissors.RPS as rps```
 and then
-```
-rps.main()
-```
+```rps.main()```
